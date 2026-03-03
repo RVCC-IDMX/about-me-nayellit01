@@ -1,0 +1,33 @@
+body{
+    font-family: "Tenor Sans", sans-serif;
+    background-color: #738775;
+    color: #FDAFD4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Elsie", serif;
+    font-size: 40pt;
+}
+
+header{
+    text-align: center;
+}
+
+#hero, footer {
+    text-align: center;
+    background-color: #CCF0CF;
+    color: #C2668F;
+    font-size: 15pt;
+    font-weight: bold;
+    border: #C2668F 5px solid;
+    padding: 10px;
+}
+
+#hero img{
+    width: 300px;
+}
+
+#bio{
+    text-align: center;
+    font-size: 12pt;
+}
