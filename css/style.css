@@ -1,7 +1,7 @@
 body{
     font-family: "Tenor Sans", sans-serif;
-    background-color: #738775;
-    color: #FDAFD4;
+    background-color: #C2E1FC;
+    color: #4E8BC4;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,12 +15,12 @@ header{
 
 #hero, footer {
     text-align: center;
-    background-color: #CCF0CF;
-    color: #C2668F;
+    background-color: #FFC2D9;
+    color: white;
     font-size: 15pt;
     font-weight: bold;
-    border: #C2668F 5px solid;
-    padding: 10px;
+    border: #FF99BE 10px solid;
+    padding: 20px;
 }
 
 #hero img{
