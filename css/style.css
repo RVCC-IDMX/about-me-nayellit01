@@ -1,16 +1,18 @@
 body{
     font-family: "Tenor Sans", sans-serif;
-    background-color: #C2E1FC;
-    color: #4E8BC4;
+    background-color: #EAF4FF;
+    color: #1F2937;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Elsie", serif;
     font-size: 40pt;
     text-align: center;
+    color: #1A365D;
 }
 h2{
-    font-size: 20pt;
+   font-size: 2rem;
+   margin-top: 30px;
 }
 
 header{
@@ -19,12 +21,13 @@ header{
 
 #hero, footer {
     text-align: center;
-    background-color: #FFC2D9;
-    color: white;
-    font-size: 15pt;
+    background-color: #FFE4EE;
+    color: #1F2937;
+    font-size: 18pt;
     font-weight: bold;
-    border: #FF99BE 10px solid;
-    padding: 20px;
+    border: #C2185B 5px solid;
+    padding: 30px;
+    border-radius: 15px;
 }
 
 #hero img{
@@ -33,24 +36,53 @@ header{
 
 #bio{
     text-align: center;
-    font-size: 12pt;
+    font-size: 13pt;
+    color: #1F2937;
 }
 
 #hobbies{
 ul {
-  list-style: none; /* removes default bullets */
-  margin: auto;
-padding-bottom: 20px;
+     list-style: none;
+     margin: auto;
+     padding-bottom: 20px;
 }
 
 li{
-      margin: 8px 0;
+    margin: 8px 0;
+    font-size: 13pt;
 }
 
 li::before {
-  content: "★ ";
-  color: #4E8BC4;   /* optional styling */
+    content: "★ ";
+    color: #1F2937;
 }
 
+}
+
+/* Gallery */
+
+#gallery {
+    border: #C2185B 5px solid;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: #FFE4EE;
+    font-size: 13pt;
+    font-weight: bold;
+    padding: 10px;
+}
+
+hr{
+    border: #C2185B 2px solid ;
+}
+
+
+#gallery img {
+    max-width: 100%;
+    margin-bottom: 10px;
+
+}
+
+#gallery figure {
+    text-align: center;
 
 }
