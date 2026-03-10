@@ -7,6 +7,10 @@ body{
 h1, h2, h3, h4, h5, h6 {
     font-family: "Elsie", serif;
     font-size: 40pt;
+    text-align: center;
+}
+h2{
+    font-size: 20pt;
 }
 
 header{
@@ -30,4 +34,23 @@ header{
 #bio{
     text-align: center;
     font-size: 12pt;
+}
+
+#hobbies{
+ul {
+  list-style: none; /* removes default bullets */
+  margin: auto;
+padding-bottom: 20px;
+}
+
+li{
+      margin: 8px 0;
+}
+
+li::before {
+  content: "★ ";
+  color: #4E8BC4;   /* optional styling */
+}
+
+
 }
