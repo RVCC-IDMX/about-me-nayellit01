@@ -1,6 +1,6 @@
 body{
     font-family: "Tenor Sans", sans-serif;
-    background-color: #EAF4FF;
+    background-color: #F5F9FF;
     color: #1F2937;
 }
 
@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Elsie", serif;
     font-size: 40pt;
     text-align: center;
-    color: #1A365D;
+    color: #003380;
 }
 h2{
    font-size: 2rem;
@@ -22,10 +22,10 @@ header{
 #hero, footer {
     text-align: center;
     background-color: #FFE4EE;
-    color: #1F2937;
+    color: #003380;
     font-size: 18pt;
     font-weight: bold;
-    border: #C2185B 5px solid;
+    border: #003380 6px solid;
     padding: 30px;
     border-radius: 15px;
 }
@@ -40,8 +40,8 @@ footer{
 
 #bio{
     text-align: center;
-    font-size: 13pt;
-    color: #1F2937;
+    font-size: 14pt;
+    color: #003380;
 }
 
 #hobbies{
@@ -58,7 +58,7 @@ li{
 
 li::before {
     content: "★ ";
-    color: #1F2937;
+    color: #003380;
 }
 
 }
@@ -66,17 +66,16 @@ li::before {
 /* Gallery */
 
 #gallery {
-    border: #C2185B 5px solid;
+    border: #003380 6px solid;
     border-radius: 15px;
     margin-bottom: 20px;
-    background-color: #FFE4EE;
-    font-size: 13pt;
+    font-size: 14pt;
     font-weight: bold;
     padding: 10px;
 }
 
 hr{
-    border: #C2185B 2px solid ;
+    border: #003380 2px solid ;
 }
 
 
@@ -107,7 +106,7 @@ hr{
 /* Dropcaps */
 
 #lit div p:first-child:first-letter{
-    color: #1F2937;
+    color: #003380;
     float: left;
     font-size: 3em;
     font-weight: bold ;
@@ -118,8 +117,8 @@ hr{
     border-radius: 0.2em;
     font-family: "Elsie", serif;
     line-height: .8;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.25);
     background-image: radial-gradient(#fff,#d3e0ef);
 
 }
