@@ -66,6 +66,7 @@ li::before {
 /* Gallery */
 
 #gallery {
+    background-color: #FFE4EE;
     border: #003380 6px solid;
     border-radius: 15px;
     margin-bottom: 20px;
