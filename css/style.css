@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 h2{
    font-size: 2rem;
    margin-top: 30px;
+   line-height: 2rem ;
 }
 
 header{
@@ -90,7 +91,7 @@ hr{
 
 
 #gallery img {
-    max-width: 100%;
+    max-width: 80%;
     margin-bottom: 10px;
 
 }
@@ -103,13 +104,14 @@ hr{
 /* Literature */
 
 #lit{
-    max-width: 40rem;
+    max-width: 80rem;
     margin: 0 auto;
     line-height: 24px;
+    padding-bottom: 1rem;
 }
 
 #lit div p {
-    padding: 2px;
+    padding: 5px;
     clear: both;
 }
 
@@ -132,7 +134,7 @@ hr{
     background-image: radial-gradient(#fff,#d3e0ef);
 
 }
-
+/*tablet size*/
 @media screen and (min-width: 60em) {
     figure {
         display: grid;
@@ -146,4 +148,38 @@ hr{
         font-size: 16pt;
         margin-left: 1rem;
     }
+
+    figure img{
+        width:100%
+    }
+
+
+
+    #lit div {
+        max-width: 100%;
+        columns: 20rem;
+    }
+}
+
+/* larger screen */
+
+@media screen and (min-width: 100em) {
+
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr {
+        display: none
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
+    }
+
 }
