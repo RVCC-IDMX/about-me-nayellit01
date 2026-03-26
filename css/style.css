@@ -47,6 +47,7 @@ footer{
 #hobbies{
 ul {
      list-style: none;
+     text-align: center;
      margin: auto;
      padding-bottom: 20px;
 }
@@ -106,7 +107,7 @@ hr{
 
 /* Dropcaps */
 
-#lit div p:first-child:first-letter{
+#lit div p:first-letter{
     color: #003380;
     float: left;
     font-size: 3em;
