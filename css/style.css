@@ -134,6 +134,33 @@ hr{
     background-image: radial-gradient(#fff,#d3e0ef);
 
 }
+
+#video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFE4EE;
+    border: #003380 6px solid;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#video hr {
+    border: #003380 2px solid;
+    border-radius: 15px;
+    width: 100%;
+}
+
+#myVideo {
+    max-width: 100%;
+    padding:20px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+
 /*tablet size*/
 @media screen and (min-width: 60em) {
     figure {
@@ -148,7 +175,6 @@ hr{
         font-size: 16pt;
         margin-left: 1rem;
     }
-
     figure img{
         width:100%
     }
