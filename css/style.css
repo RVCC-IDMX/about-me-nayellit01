@@ -151,6 +151,9 @@ hr{
     border: #003380 2px solid;
     border-radius: 15px;
     width: 100%;
+    display: block;
+
+
 }
 
 #myVideo {
