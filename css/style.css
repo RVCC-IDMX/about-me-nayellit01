@@ -164,9 +164,55 @@ hr{
 /*contact form*/
 #formElements {
     display: grid;
+    row-gap: 5px;
+}
 
+#contact {
+    padding: 20px;
+    max-width: 600px;
+    margin: 2rem auto
+}
+
+fieldset {
+    border: 3px solid #003380;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+legend {
+    background-color: #003380;
+    color:#F5F9FF;
+    padding: .5rem;
 
 }
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#contact li {
+    margin: 1rem;
+}
+
+#phonetype {
+    background-color: #fff;
+}
+#contact button {
+    background-color: #003380;
+    color: #F5F9FF;
+    border: 1px solid #1F2937;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
+
+}
+
 
 
 /*tablet size*/
