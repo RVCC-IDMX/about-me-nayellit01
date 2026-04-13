@@ -152,8 +152,6 @@ hr{
     border-radius: 15px;
     width: 100%;
     display: block;
-
-
 }
 
 #myVideo {
@@ -161,6 +159,13 @@ hr{
     padding:20px;
     height: auto;
     aspect-ratio: 16 / 9;
+}
+
+/*contact form*/
+#formElements {
+    display: grid;
+
+
 }
 
 
@@ -181,8 +186,6 @@ hr{
     figure img{
         width:100%
     }
-
-
 
     #lit div {
         max-width: 100%;
