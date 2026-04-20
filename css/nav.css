@@ -30,6 +30,7 @@ main{
     flex-direction: column;
     font-size: 13pt;
     margin-bottom: 20px;
+    padding: 1em;
 }
 
 /* logo */
@@ -40,8 +41,9 @@ main{
 }
 
 .logo img {
-    height: 5vw;
-    width: 5vw;
+    height: 30pt;
+    width: 30pt;
+    padding: .5em;
 }
 
 .logo h1 {
@@ -88,3 +90,28 @@ media query for non-mobile nav bar
 min-width set to width of nav elements
 such that no text wraps
 */
+
+@media screen and (min-width:60rem) {
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+}
