@@ -28,13 +28,25 @@ main{
     background-color: #FFE4EE ;
     display: flex;
     flex-direction: column;
-    font-size: 14pt;
+    font-size: 13pt;
     margin-bottom: 20px;
 }
 
 /* logo */
 
+.logo{
+    display:flex;
+    align-items: center;
+}
 
+.logo img {
+    height: 5vw;
+    width: 5vw;
+}
+
+.logo h1 {
+    font-size: 25pt;
+}
 
 /* navigation list */
 
