@@ -24,8 +24,8 @@ main{
 /* navbar */
 
 .navbar {
-    background-color: #1F2937 ;
-    color: #F5F9FF;
+    background-color: #005161 ;
+    color: #E7F3F3;
     display: flex;
     flex-direction: column;
     font-size: 13pt;
@@ -48,7 +48,7 @@ main{
 
 .logo h1 {
     font-size: 30pt;
-    color: #F5F9FF;
+    color: #E7F3F3;
 }
 
 /* navigation list */
@@ -66,8 +66,8 @@ main{
 */
 
 .navbar-links a {
-    color:#F5F9FF;
-    background-attachment: #FFE4EE ;
+    color:#E7F3F3;
+    background-attachment: #E7F3F3 ;
     font-size: 14pt;
     padding: 1rem 1.25rem;
     letter-spacing: 1px;
@@ -78,8 +78,8 @@ main{
 
 .navbar-links a:hover,
 .navbar-links a:focus {
-    color:#1F2937;
-    background-color: #F5F9FF;
+    color:#005161;
+    background-color: #E7F3F3;
     border-radius: 10px;
     outline: none;
 
