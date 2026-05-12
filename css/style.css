@@ -28,6 +28,12 @@ h3 {
     color: #005161;
 }
 
+h4 {
+    font-size: 18pt;
+    font-weight: bolder;
+    text-align: left;
+}
+
 header{
     text-align: center;
 }
@@ -148,30 +154,43 @@ hr{
     padding-bottom: 1rem;
 }
 
+#lit div {
+
+}
+
 #lit div p {
     padding: 5px;
-    clear: both;
+    font-size: 14pt;
 }
+
+#lit figure {
+    width: 300px;
+    text-align: center;
+}
+
+.row-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.row-container figure:last-child {
+    flex: .8;
+
+}
+
+#lit img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
 
 /* Dropcaps */
 
-#lit div p:first-letter{
-    color: #A02753;
-    float: left;
-    font-size: 3em;
-    font-weight: bold ;
-    margin-right: .3em;
-    line-height: .65;
-    padding: .25em;
-    border: 4px outset #A02753;
-    border-radius: 0.2em;
-    font-family: "Elsie", serif;
-    line-height: .8;
-    text-shadow: 2px 2px 4px black;
-    box-shadow: 2px 2px 6px black;
-    background-image: radial-gradient(#FFE0E8,#FFBDD6);
 
-}
+
+
 
 #video {
     display: flex;
@@ -183,6 +202,7 @@ hr{
     border: #005161 6px solid;
     border-radius: 15px;
     margin-bottom: 20px;
+    margin-top: 20px;
     color: #005161;
 }
 
@@ -279,7 +299,6 @@ legend {
 
     #lit div {
         max-width: 100%;
-        columns: 20rem;
     }
 }
 
@@ -308,5 +327,12 @@ legend {
     figure {
         display: block;
     }
+
+    .row-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
 
 }

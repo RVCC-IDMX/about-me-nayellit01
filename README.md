@@ -16,5 +16,9 @@ The purpose of this project is to learn the fundamentals of html and css. Many s
 # Citations
 https://www.youtube.com/watch?v=VEHk5B78ACM&t=526s
 GITHUB ICON: https://icons.getbootstrap.com/icons/github/
+BEACH: https://unsplash.com/photos/coconut-trees-and-body-of-water-painting-eaI3VpRnMbw
+https://css-tricks.com/masking-vs-clipping-use/
+https://css-tricks.com/clipping-masking-css/
+https://www.geeksforgeeks.org/html/how-to-use-css-and-svg-clipping-and-masking-techniques/
 # License
 © 2026 Nayelli Tejada. All Rights Reserved.

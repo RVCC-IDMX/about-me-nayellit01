@@ -125,79 +125,183 @@
 
             <article id="lit">
 
-                <h2>An Excerpt from Pride and Prejudice</h2>
+                <h2>CSS Masking and Clipping</h2>
 
                 <div>
 
-                    <p>Elizabeth, as they drove along, watched for the first
-                        appearance of Pemberley
-                        Woods with some perturbation; and when at length they
-                        turned in at the
-                        lodge, her spirits were in a high flutter. The park was
-                        very large, and
-                        contained great variety of ground. They entered it in
-                        one of its lowest
-                        points, and drove for some time through a beautiful wood
-                        stretching over a
-                        wide extent.</p>
+                    <p>CSS masking and clipping are ways to control the
+                        visibility of an element to
+                        create unique shapes and designs.</p>
 
-                    <p>The village of Longbourn was only one mile from Meryton;
-                        a most convenient
-                        distance for the young ladies, who were usually tempted
-                        thither three or
-                        four times a week, to pay their duty to their aunt and
-                        to a milliner's shop
-                        just over the way. The two youngest of the family,
-                        Catherine and Lydia, were
-                        particularly frequent in these attentions.</p>
+                    <h4>What is Clipping?</h4>
 
-                    <p>In vain have I struggled. It will not do. My feelings
-                        will not be repressed.
-                        You must allow me to tell you how ardently I admire and
-                        love you.
-                        Elizabeth's astonishment was beyond expression. She
-                        stared, coloured,
-                        doubted, and was silent. This he considered sufficient
-                        encouragement; and
-                        the avowal of all that he felt, and had long felt for
-                        her, immediately
-                        followed.</p>
+                    <p> Clipping uses vector paths to control which parts of an
+                        element can be seen and
+                        which parts are hidden. Anything outside of the path is
+                        transparent while
+                        everything inside remains visible. This is done using
+                        the clip-path property and
+                        is ideal for cutting out shapes like circles, polygons,
+                        or custom shapes.</p>
 
-                    <p>Mr. Bennet was so odd a mixture of quick parts, sarcastic
-                        humour, reserve,
-                        and caprice, that the experience of three-and-twenty
-                        years had been
-                        insufficient to make his wife understand his character.
-                        Her mind was less
-                        difficult to develop. She was a woman of mean
-                        understanding, little
-                        information, and uncertain temper. When she was
-                        discontented, she fancied
-                        herself nervous.</p>
+                    <h4>What is Masking?</h4>
 
-                    <p>It is a truth universally acknowledged, that a single man
-                        in possession of a
-                        good fortune, must be in want of a wife. However little
-                        known the feelings
-                        or views of such a man may be on his first entering a
-                        neighbourhood, this
-                        truth is so well fixed in the minds of the surrounding
-                        families, that he is
-                        considered as the rightful property of some one or other
-                        of their daughters.
+                    <p>
+                        Masking uses images or gradients to control the
+                        visibility of an element.
+                        Masking allows for parts of the element to appear fully
+                        visible, partially
+                        transparent, or completely hidden. Masks are perfect for
+                        creating complex visual
+                        effects like smooth fades and soft edges. This is done
+                        using the CSS mask
+                        property.</p>
+
+                    <h4>How do we use them?</h4>
+                    <p>Below are some examples of CSS clipping and masking in
+                        use.</p>
+
+                    <div class="row-container">
+
+                        <!--Beach OG-->
+
+                        <figure>
+                            <img src="img/beach.png" alt="beach">
+
+                        </figure>
+
+                        <figure class="code">
+                            <img src="img/beach-css.png" alt="beach">
+                        </figure>
+
+                    </div>
+
+                    <!--Beach Circle-->
+
+                    <h4>Circle (.clip-circle)</h4>
+
+                    <p> Circle 100px sets the radius and 200px wide in total.
                     </p>
 
-                    <p>It is a truth universally acknowledged, that a single man
-                        in possession of a
-                        good fortune, must be in want of a wife. However little
-                        known the feelings
-                        or views of such a man may be on his first entering a
-                        neighbourhood, this
-                        truth is so well fixed in the minds of the surrounding
-                        families, that he is
-                        considered as the rightful property of some one or other
-                        of their daughters.
+                    <p>"At center": sets the position. It places the center of
+                        the circle exactly in the middle of the image.</p>
+
+                    <div class="row-container">
+
+                        <figure>
+                            <img src="img/beach-circle.png" alt="beach">
+                        </figure>
+
+                        <figure class="code">
+                            <img src="img/circle-css.png" alt="beach">
+                        </figure>
+
+                    </div>
+
+
+                    <!--Beach Ellipse-->
+
+                    <h4>Ellipse (.clip-ellipse)</h4>
+
+                    <p>Ellipse 150px and 70px are the two radii. The first
+                        number
+                        (150px) is the
+                        horizontal width, and the second (70px) is the vertical
+                        height.</p>
+
+                    <p>"At center" : Just like the circle, this keeps the shape
+                        perfectly centered on your image.</p>
+
+
+                    <div class="row-container">
+
+                        <figure>
+                            <img src="img/beach-ellipse.png" alt="">
+                        </figure>
+
+                        <figure class="code">
+                            <img src="img/ellipse-css.png" alt="beach">
+                        </figure>
+
+                    </div>
+
+                    <!--Beach Polygon-->
+
+                    <h4>Polygon (.clip-polygon)</h4>
+
+                    <p>This is the most powerful tool. It creates a custom shape
+                        by connecting "dots"
+                        (coordinates). Each pair of numbers (like 5% 5%)
+                        represents an (X, Y) point.</p>
+
+                    <p>How it works: It draws a line from the first point to the
+                        second, then the third,
+                        and finally closes the shape back at the start. The
+                        coordinates: 0% 0% is the
+                        top-left corner. 100% 100% is the bottom-right corner.
                     </p>
+
+                    <div class="row-container">
+
+                        <figure>
+                            <img src="img/beach-polygon.png" alt="beach">
+                        </figure>
+
+                        <figure class="code">
+                            <img src="img/polygon-css.png" alt="beach">
+                        </figure>
+
+                    </div>
+
+                    <!--Masking-->
+
+                    <h4>Masking</h4>
+
+                    <p>This code creates a fading effect that gradually makes
+                        part of your image
+                        invisible.</p>
+
+                    <p>Where the mask is solid black (rgba(0,0,0,1)), your image
+                        is fully visible.</p>
+                    <p>Where the mask is transparent (rgba(0,0,0,0)), your image
+                        is hidden.</p>
+
+
+                    <div class="row-container">
+
+                        <figure>
+                            <img src="img/fading.png"
+                                alt="image of beach with fading effect">
+                        </figure>
+
+                        <figure class="code">
+                            <img src="img/fading-css.png"
+                                alt="image of fading effect in css">
+                        </figure>
+
+                    </div>
+
+                    <h4>Check this out!</h4>
+                    <p>Here's some fun sites to test it out! <a
+                            href="https://bennettfeely.com/clippy/">Visit Clippy
+                            - CSS clip-path
+                            maker</a>
+                    </p>
+
+                    <p class="codepen" data-height="300"
+                        data-pen-title="CSS and SVG Masks"
+                        data-default-tab="html,result" data-slug-hash="GRodvp"
+                        data-user="yoksel"
+                        style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a
+                                href="https://codepen.io/yoksel/pen/GRodvp">
+                                CSS and SVG Masks</a> by yoksel (<a
+                                href="https://codepen.io/yoksel">@yoksel</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                    </p>
+                    <script async
+                        src="https://public.codepenassets.com/embed/index.js"></script>
+
 
                 </div>
 
