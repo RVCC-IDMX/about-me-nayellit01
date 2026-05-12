@@ -14,6 +14,7 @@ The purpose of this project is to learn the fundamentals of html and css. Many s
 #FFDBE9 rgb(255 219 233)
 
 # Citations
-
+https://www.youtube.com/watch?v=VEHk5B78ACM&t=526s
+GITHUB ICON: https://icons.getbootstrap.com/icons/github/
 # License
 © 2026 Nayelli Tejada. All Rights Reserved.

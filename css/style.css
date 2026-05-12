@@ -42,10 +42,20 @@ header{
     padding: 10px;
     border-radius: 15px;
 }
+/* Footer */
 
 footer{
     font-size: 15pt;
     margin: 6px;
+}
+
+.github {
+    fill: #005161;
+    max-width: 100%;
+}
+
+.github:visited {
+    color: #005161;
 }
 
 #hero img{
@@ -67,11 +77,15 @@ section#hobbies {
 }
 
 #hobbies{
+
+    font-size: 14pt;
+
+
 ul {
-     list-style: none;
-     margin: auto;
-     padding-bottom: 20px;
-     align-content: center;
+    list-style: none;
+    margin: auto;
+    padding-bottom: 20px;
+    align-content: center;
 }
 
 li{
@@ -97,6 +111,7 @@ li::before {
     font-weight: bold;
     padding: 10px;
     color:#005161;
+    text-align: center;
 }
 
 hr{
@@ -106,14 +121,23 @@ hr{
 
 #gallery img {
     max-width: 80%;
-    margin-bottom: 10px;
-
+    margin-bottom: 15px;
+    position: relative;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    outline: #005161 3px solid;
+    border-radius: 15px ;
 }
 
 #gallery figure {
     text-align: center;
 
 }
+
+#gallery img:hover {
+    transform: scale(1.1) translateY(-10px);
+}
+
 
 /* Literature */
 
@@ -274,6 +298,11 @@ legend {
 
     #gallery h3 {
         grid-column: 1/-1;
+    }
+
+    #gallery p {
+        grid-column: 1/-1;
+        text-align: center;
     }
 
     figure {
